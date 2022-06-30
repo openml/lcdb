@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## LCDB
 
-You can use the [editor on GitHub](https://github.com/openml/lcdb/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The use of learning curves for decision making in supervised machine learning is standard practice, yet understanding of their behavior is rather limited. 
+To facilitate a deepening of our knowledge, we introduce the Learning Curve Database (LCDB), which contains empirical learning curves of 20 classification algorithms on 246 datasets.
+One of the LCDB's unique strength is that it contains all (probabilistic) predictions, which allows for building learning curves of arbitrary metrics.
+Moreover, it unifies the properties of similar high quality databases in that it (i) defines clean splits between training, validation, and test data, (ii) provides training times, and (iii) provides an API for convenient access (pip install lcdb). We demonstrate the utility of LCDB by analyzing some learning curve phenomena, such as convexity, monotonicity, peaking, and curve shapes.
+Improving our understanding of these matters is essential for efficient use of learning curves for model selection, speeding up model training, and to determine the value of more training data.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Paper
 
-### Markdown
+The LCDB paper has been accepted for publication at ECML/PKDD 2022. We will link to an open accessible version soon. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Installation
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+LCDB can be installed in Python using the following commandline command. 
+```
+pip install LCDB
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+# Download
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/openml/lcdb/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+The raw learning curve data (>200GB) can be downloaded using [this link](https://u.pcloud.link/publink/show?code=kZS8m5VZQaOWdf2Q7FmMcKUKCc6cMpggDJRV).
