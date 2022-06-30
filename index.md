@@ -1,4 +1,4 @@
-## LCDB
+## LCDB 1.0
 
 The use of learning curves for decision making in supervised machine learning is standard practice, yet understanding of their behavior is rather limited. 
 To facilitate a deepening of our knowledge, we introduce the Learning Curve Database (LCDB), which contains empirical learning curves of 20 classification algorithms on 246 datasets.
